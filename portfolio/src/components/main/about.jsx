@@ -1,6 +1,9 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function about() {
+    AOS.init();
   return (
     <section className="section" id="about">
         <div className="top-header">
